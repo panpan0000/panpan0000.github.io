@@ -1,8 +1,9 @@
 ---
 layout: default
-modal-id: 5
-date: 2014-07-14
-img: safe.png
+title: on 2016 10 13, RackHD's first landing page comes
+modal-id: 7
+date: 2016-10-12
+img: 
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

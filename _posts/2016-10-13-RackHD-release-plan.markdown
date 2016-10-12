@@ -1,8 +1,9 @@
 ---
 layout: default
-modal-id: 3
-date: 2014-07-16
-img: circus.png
+title: RackHD will have its release in near term. please expect!
+modal-id: 7
+date: 2016-10-12
+img: 
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

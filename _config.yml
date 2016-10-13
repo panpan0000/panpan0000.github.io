@@ -16,7 +16,7 @@ bing_verify:
 # - static : pass through formspree.io to validate email sending
 # - disqus : replace contact form by disqus thread
 # - comment the line below if you want to stick with the default PHP contact form
-contact: static
+#contact: static
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
@@ -31,28 +31,24 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dell EMC
+  copyright: 2016 Dell EMC, All rights reserved.  <p><a href="http://www.emc.com/legal/emc-corporation-privacy-statement.htm">Privacy Policy</a></p> 
   location: Location
-  social: Around the Web
-  credits: Credits
+  social:  Find Us Around
+  #credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: https://twitter.com/rack_hd 
+  - title: group
+    url: https://groups.google.com/forum/#!forum/rackhd 
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/RackHD 
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Dell EMC, 176 South St
+  - line: Hopkinton, MA 01748
 
 # Credits content
 credits: 'find RackHD at <a>github.com/rackhd</a> '

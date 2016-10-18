@@ -1,10 +1,10 @@
 ---
 layout: default
 title: RackHD will have its release in near term. please expect!
-modal-id: 7
+modal-id: 1
 date: 2016-10-12
-img: 
-alt: image-alt
+img: release.jpg
+alt: 
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development

@@ -1,10 +1,10 @@
 ---
 layout: default
 title: on 2016 10 13, RackHD's first landing page comes
-modal-id: 7
+modal-id: 0
 date: 2016-10-12
-img: 
-alt: image-alt
+img: landing.jpg
+alt: 
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development

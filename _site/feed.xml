@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RackHD</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
+    <link>http://0.0.0.0:4000/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 18 Oct 2016 07:22:09 -0400</pubDate>
+    <lastBuildDate>Tue, 18 Oct 2016 07:22:09 -0400</lastBuildDate>
+    <generator>Jekyll v3.3.0</generator>
+    
+      <item>
+        <title>RackHD will have its release in near term. please expect!</title>
+        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
+        <pubDate>Wed, 12 Oct 2016 00:00:00 -0400</pubDate>
+        <link>http://0.0.0.0:4000/web%20development/2016/10/12/RackHD-release-plan/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/web%20development/2016/10/12/RackHD-release-plan/</guid>
+        
+        
+        <category>Web Development</category>
+        
+      </item>
+    
+      <item>
+        <title>on 2016 10 13, RackHD's first landing page comes</title>
+        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
+        <pubDate>Wed, 12 Oct 2016 00:00:00 -0400</pubDate>
+        <link>http://0.0.0.0:4000/web%20development/2016/10/12/RackHD-landing-Page/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/web%20development/2016/10/12/RackHD-landing-Page/</guid>
+        
+        
+        <category>Web Development</category>
+        
+      </item>
+    
+  </channel>
+</rss>

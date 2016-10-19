@@ -220,10 +220,6 @@ header .intro-text .skills {
     letter-spacing: 0px;
 }
 
-.navbar .navbar-nav li a:focus {
-    outline: 0;
-}
-
 .navbar-default,
 .navbar-inverse {
     border: 0;
@@ -233,11 +229,17 @@ header .intro-text .skills {
 .navbar-default .navbar-brand{
         color: #ffffff;
 }
+
+.navbar-default .navbar-nav li a {
+    font-size: 15px;
+}
+
 .navbar-default .navbar-nav li a:focus,
 .navbar-default .navbar-nav li a:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:hover
 {
+    outline: 0;
     color: #c8c6c6;
 }
 
@@ -666,59 +668,20 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { }
   pre .atv, code .atv { color: #060 }
 }
 
-#portfolio .portfolio-item {
-    right: 0;
-    margin: 0 0 15px;
+.thumbnail.right-caption > img {
+    float: left;
+    margin-right: 9px;
 }
 
-#portfolio .portfolio-item .portfolio-link {
-    display: block;
-    position: relative;
-    margin: 0 auto;
-    max-width: 400px;
-}
-
-#portfolio .portfolio-item .portfolio-link .caption {
-    position: absolute;
+.thumbnail.right-caption {
+    float: left;
+    background: #e3f1f1;
     width: 100%;
-    height: 100%;
-    opacity: 0;
-    background: rgba(24,288,156,.9);
-    -webkit-transition: all ease .5s;
-    -moz-transition: all ease .5s;
-    transition: all ease .5s;
+    padding: 10px 10px;
+    border: 0;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption:hover {
-    opacity: 1;
+.thumbnail.right-caption > .caption {
+    padding: 4px;
 }
-
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    height: 20px;
-    margin-top: -12px;
-    text-align: center;
-    font-size: 20px;
-    color: #fff;
-}
-
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
-    margin-top: -12px;
-}
-
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
-    margin: 0;
-}
-
-#portfolio * {
-    z-index: 2;
-}
-
-@media(min-width:767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-    }
-}
+​

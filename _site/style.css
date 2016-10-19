@@ -379,7 +379,7 @@ section p {
 
 
 .btn-outline {
-    margin-top: 15px;
+    margin: 0 5px;
     border: solid 2px #fff;
     font-size: 20px;
     color: #fff;

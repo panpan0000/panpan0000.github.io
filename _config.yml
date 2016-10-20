@@ -35,7 +35,7 @@ color:
 # Footer settings
 footer:
   copyright: 2016 Dell EMC, All rights reserved.  <p><a href="http://www.emc.com/legal/emc-corporation-privacy-statement.htm">Privacy Policy</a></p> 
-  location: Location
+  #location: Location
   social:  Find Us Around
   #credits: Credits
 
@@ -47,6 +47,8 @@ social:
     url: https://groups.google.com/forum/#!forum/rackhd 
   - title: github
     url: https://github.com/RackHD 
+  - title: slack
+    url: https://codecommunity.slack.com/archives/rackhd 
 
 # Postal address (add as many lines as necessary)
 address:

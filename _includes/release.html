@@ -1,0 +1,99 @@
+    <!-- Release Section -->
+    <section id="release_section">
+        <div class="row  text-center" style="background: #f6f8f8;padding-bottom: 20px;" >
+            <div class="row col-lg-12">
+                RackHD Releases
+            </div>
+            <div class="row col-lg-12">
+                <span class="stamp">Stable | </span>
+                <span class="stamp boder-stamp">RackHD: <b>version T.B.D</b></span>
+                <span class="stamp">Node: <b>4.x</b></span>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row release-item"  id="ubuntu_release" >
+                <div class="col-lg-2 col-lg-offset-1">
+                    <img class="img-responsive" width="100%" src="../img/ubuntu-logo.png" alt="">
+                    <br></br>
+                </div>
+                <div class="col-lg-8">
+                        <p> NOTE: Only Ubuntu *14.04* is supported now.( Ubuntu 16.04 will come soon)</p>
+                        <h4>Stable Release(coming soon)</h4>
+                        <pre class="prettyprint">
+echo deb https://dl.bintray.com/rackhd/debian trusty release | sudo tee -a /etc/apt/sources.list
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 379CE192D401AB61
+sudo apt-get update
+sudo apt-get install rackhd</pre>
+                </div>
+                <div class="col-lg-8">
+                        <h4>Latest tip on master</h4>
+                        <pre class="prettyprint">
+echo deb https://dl.bintray.com/rackhd/debian trusty main | sudo tee -a /etc/apt/sources.list
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 379CE192D401AB61
+sudo apt-get update
+sudo apt-get install rackhd</pre>
+                </div>
+            </div>
+
+            <div class="row release-item" id="vagrant_release">
+                <div class="col-lg-2 col-lg-offset-1">
+                    <img class="img-responsive" width="100%" src="../img/vagrant-logo.png" alt="">
+                </div>
+                <div class="col-lg-8">
+                        <h4>Stable Release</h4>
+                        <pre class="prettyprint">
+git clone https://github.com/RackHD/RackHD
+cd RackHD
+cd example
+# download latest release version , and create the RackHD instance.
+vagrant up dev
+# start the RackHD services
+vagrant ssh dev -c "sudo nf start"</pre>
+                </div>
+            </div>
+
+            <div class="row release-item" id="source_code_release">
+                <div class="col-lg-2 col-lg-offset-1">
+                    <img class="img-responsive" width="100%" src="../img/nodejs-logo.png" alt="">
+                    <h6>from src code</h6>
+                </div>
+                <div class="col-lg-8">
+                        <p>
+
+                             <h4>Latest Tips</h4>
+                             <p>use "master" branch for latest tips</p>
+                             <h4>Stable/RC</h4>
+                             <p> use "release/x.y.z"  branch for stable releases or release candidates. </p>
+                             <a href="http://rackhd.readthedocs.io/en/latest/rackhd/ubuntu_source_installation.html?highlight=install" class="btn btn-primary ">
+                                <i class="fa fa-github"></i>Ubuntu Source Installation
+                             </a>
+                        </p>
+                </div>
+            </div>
+
+            <div class="row release-item" id="docker_release">
+                <div class="col-lg-2 col-lg-offset-1">
+                    <img class="img-responsive" width="100%" src="../img/docker-logo.png" alt="">
+                </div>
+                <div class="col-lg-8">                   
+                             <h4>Daily Build</h4>
+                             <br><br>
+                             <a href="https://github.com/RackHD/RackHD/blob/master/docker/README.md" class="btn btn-primary ">
+                                <i class="fa fa-docker"></i>RackHD Docker Usage
+                             </a>
+
+                </div>
+            </div>
+
+            <div class="row release-item" id="vmware_release">
+                <div class="col-lg-2 col-lg-offset-1">
+                    <img class="img-responsive" width="100%" src="../img/vmware-logo.png" alt="">
+                </div>
+                <div class="col-lg-8">
+                        <p>
+                            Comming soon...
+                        </p>
+                </div>
+            </div>
+        </div>
+    </section>

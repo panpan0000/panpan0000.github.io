@@ -1,39 +1,57 @@
     <!-- Footer -->
-    <footer class="text-center">
+    <footer class="text-center" id="footer">
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.location }}</h3>
-                        <p>
-                            {% for adress in site.address %}
-                                {{ adress.line }} <br>
-		                    {% endfor %}
-                        </p>
+                    <div class="footer-col col-md-3 col-md-offset-1">
+                        <h5 style="text-align: left;">Documents</h5>
+                        <h6 class="grid_content"> <li class="big_margin">
+                            <a style="color:gray" href="https://rackhd.readthedocs.io/en/latest/tutorials/index.html"> Tutorial </a>
+                        </li> </h6>
+                        <h6 class="grid_content"> <li class="big_margin">
+                            <a style="color:gray" href="https://rackhd.readthedocs.io/en/latest/introduction.html"> RackHD Overview  </a>
+                        </li> </h6>
+                        <h6 class="grid_content"> <li class="big_margin">
+                            <a style="color:gray" href="http://rackhd.readthedocs.io/en/latest/" >RackHD Documentation  </a>
+                        </li> </h6>
+                        <h6 class="grid_content"> <li class="big_margin">
+                            <a style="color:gray" href="https://rackhd.atlassian.net/wiki/display/RAC1/RackHD">Confluence(Wiki) </a>
+                        </li> </h6>
                     </div>
-                    <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.social }}</h3>
-                        <ul class="list-inline">
+                    <div class="footer-col col-md-3">
+                        <h5 style="text-align: left;">Branding & Legal </h5>
+                        <h6 class="grid_content"> <li class="big_margin"> Logo & Branding </li> </h6>
+                        <h6 class="grid_content"> <li class="big_margin"> Trademark Policy</li> </h6>
+                        <h6 class="grid_content"> <li class="big_margin"> Privacy Policy</li> </h6>
+                    </div>
+
+                    <div class="footer-col col-md-3">
+                        <h5>{{ site.footer.social }}</h5>
                             {% for network in site.social %}
-                            <li>
-                                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
-                            </li>
+                                <a  href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
 		                    {% endfor %}
-                        </ul>
                     </div>
-                    <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.credits }}</h3>
-                        <p>{{ site.credits }}</p>
-                    </div>
-                </div>
+               </div>
             </div>
         </div>
         <div class="footer-below">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}
+                        <h5 style="RoyalBlue">
+                            Copyright &copy; 2016 EMC Corporation. All rights reserved . 
+                            <a style="color:LightSkyBlue " href="#">Disclaimers ,</a>
+                            <a style="color:LightSkyBlue " href="//www.emc.com/en-us/legal/emc-corporation-privacy-statement.htm">Privacy ,</a>
+                            <a style="color:LightSkyBlue " href="//www.emc.com/en-us/legal/legal-information.htm">Legal</a>
+                        </h5>
                     </div>
+                    <div class="col-lg-12">
+                    </div>
+                        <h6 style="color:gray"> 
+                              Powered By :
+                              <a style="color:gray" href="https://icons8.com">Icon pack by Icons8, </a>
+                              <a style="color:gray" href="https://unsplash.com">Photo from unsplash.com </a>
+                        </h6>
                 </div>
             </div>
         </div>

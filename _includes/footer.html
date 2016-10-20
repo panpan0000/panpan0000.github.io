@@ -3,6 +3,7 @@
         <div class="footer-above">
             <div class="container">
                 <div class="row">
+                    <!--
                     <div class="footer-col col-lg-4 col-lg-offset-2">
                         <h3>{{ site.footer.location }}</h3>
                         <p>
@@ -11,16 +12,19 @@
 		                    {% endfor %}
                         </p>
                     </div>
-                    <div class="footer-col col-lg-4">
+                    -->
+                    <div class="footer-col col-lg-4 col-lg-offset-2">
                         <h3>{{ site.footer.social }}</h3>
                             {% for network in site.social %}
                                 <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
 		                    {% endfor %}
                     </div>
+                    <!-->
                     <div class="footer-col col-lg-4">
                         <h3>{{ site.footer.credits }}</h3>
                         <p>{{ site.credits }}</p>
                     </div>
+                    -->
                 </div>
             </div>
         </div>

@@ -51,9 +51,9 @@ social:
     url: https://codecommunity.slack.com/archives/rackhd 
 
 # Postal address (add as many lines as necessary)
-address:
-  - line: Dell EMC, 176 South St
-  - line: Hopkinton, MA 01748
+#address:
+#  - line: Dell EMC, 176 South St
+#  - line: Hopkinton, MA 01748
 
 # Credits content
 #credits: 'find RackHD at <a>github.com/rackhd</a> '

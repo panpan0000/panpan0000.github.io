@@ -2,22 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RackHD</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
+    <description>RackHD HomePage: RackHD is a technology stack for enabling automated hardware management and orchestration through cohesive APIs.</description>
     <link>http://0.0.0.0:4000/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 19 Oct 2016 06:34:08 -0400</pubDate>
-    <lastBuildDate>Wed, 19 Oct 2016 06:34:08 -0400</lastBuildDate>
+    <pubDate>Thu, 20 Oct 2016 06:11:26 -0400</pubDate>
+    <lastBuildDate>Thu, 20 Oct 2016 06:11:26 -0400</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
         <title>RackHD Developer Summit in Hopkinton</title>
         <description>RackHD Dev Summit 2016 will be hold around Nov in Hopkinton, MA, at Dell EMC. The Dev Leads and Core Committers will participate and discuss the next step of RackHD.</description>
         <pubDate>Wed, 19 Oct 2016 00:00:00 -0400</pubDate>
-        <link>http://0.0.0.0:4000/web%20development/2016/10/19/RackHD-Dev-Summit/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/web%20development/2016/10/19/RackHD-Dev-Summit/</guid>
+        <link>http://0.0.0.0:4000/2016/10/19/RackHD-Dev-Summit/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2016/10/19/RackHD-Dev-Summit/</guid>
         
-        
-        <category>Web Development</category>
         
       </item>
     
@@ -25,11 +23,9 @@
         <title>RackHD will have its release in near term. please expect!</title>
         <description>RackHD is planning to have verified release in short term, including debian package(Ubuntu 14.04), vagrant box, docker images, and maybe VMWare OVA. Stay tuned.</description>
         <pubDate>Wed, 12 Oct 2016 00:00:00 -0400</pubDate>
-        <link>http://0.0.0.0:4000/web%20development/2016/10/12/RackHD-release-plan/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/web%20development/2016/10/12/RackHD-release-plan/</guid>
+        <link>http://0.0.0.0:4000/2016/10/12/RackHD-release-plan/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2016/10/12/RackHD-release-plan/</guid>
         
-        
-        <category>Web Development</category>
         
       </item>
     

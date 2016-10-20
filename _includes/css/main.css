@@ -149,6 +149,10 @@ header img {
     margin: 0 auto 20px;
 }
 
+header .intro-text {
+    padding-bottom: 10px;
+}
+
 header .intro-text .name {
     display: block;
     text-transform: uppercase;

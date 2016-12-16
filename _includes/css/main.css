@@ -40,8 +40,9 @@ h4 for paragrah title
 h6 for text
 */
 h4 {
+    font-family: Calibri;
+    font-weight: bold;
     margin: 0;
-    font-weight: 400;
     padding: 5px 0;
 }
 h6 {

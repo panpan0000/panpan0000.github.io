@@ -3,22 +3,22 @@
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-lg-3 col-lg-offset-1">
-                        <h3>Documents</h3>
+                    <div class="footer-col col-md-3 col-md-offset-1">
+                        <h5 style="text-align: left;">Documents</h5>
                         <h6 class="grid_content"> <li> Tutorial   </li> </h6>
                         <h6 class="grid_content"> <li> Getting Started       </li> </h6>
                         <h6 class="grid_content"> <li> API Documentation </li> </h6>
                         <h6 class="grid_content"> <li> Confluence(Wiki)  </li> </h6>
                     </div>
-                    <div class="footer-col col-lg-3">
-                        <h3>Branding & Legal </h3>
+                    <div class="footer-col col-md-3">
+                        <h5 style="text-align: left;">Branding & Legal </h5>
                         <h6 class="grid_content"> <li> Logos & Branding </li> </h6>
                         <h6 class="grid_content"> <li> Trademark Policy</li> </h6>
                         <h6 class="grid_content"> <li> Privacy Policy</li> </h6>
                     </div>
 
-                    <div class="footer-col col-lg-3">
-                        <h3>{{ site.footer.social }}</h3>
+                    <div class="footer-col col-md-3">
+                        <h5>{{ site.footer.social }}</h5>
                             {% for network in site.social %}
                                 <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
 		                    {% endfor %}

@@ -35,6 +35,10 @@ h6 {
     font-weight: 400;
 }
 
+li.big_margin{
+   margin-top: 7px;
+}
+
 h3.headline_with_line{
     font-family: Calibri,Arial,sans-serif;
     font-weight: 500;

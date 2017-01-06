@@ -6,10 +6,13 @@
 
 body {
     overflow-x: hidden;
+    font-family: 'Roboto','Open Sans',monospace,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 p {
     font-size: 20px;
+    font-family: 'Roboto condensed';
+    color: #444654
 }
 
 p.small {
@@ -25,6 +28,9 @@ a.active {
     color: #{{ site.color.primary }};
 }
 
+hr {
+    margin: 12px 24px 72px;
+}
 
 h1,
 h2,
@@ -32,19 +38,28 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans',monospace,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    font-family: 'Roboto Condensed', 'Open Sans',monospace,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 li.big_margin{
    margin-top: 7px;
 }
 
-h3.headline_with_line{
-    font-family: Calibri,Arial,sans-serif;
+h3.headline{
+    font-family: 'Roboto',Calibri,Arial,sans-serif;
+    font-size: 3em;
+    color: #{{ site.color.grad }};
     font-weight: 500;
-    color: gray;
+    text-align:center;
+    margin:auto;
+}
+
+h3.headline_with_line{
+    font-family: 'Roboto',Calibri,Arial,sans-serif;
+    font-size: 3em;
     border-bottom: 2px solid;
+    color: #{{ site.color.grad }};
+    font-weight: 500;
     text-align:center;
     margin:auto;
 }
@@ -53,21 +68,32 @@ h3.headline_with_line{
 h4 for paragrah title
 h6 for text
 */
+
+.feature_grid {
+    padding-bottom: 25px;
+}
+
 h4.grid_title{
-    font-family: Calibri,Arial,sans-serif;
+    font-family: 'Roboto',Calibri,Arial,sans-serif;
     font-weight: 800;
     text-align: center;
     margin: 0;
     padding: 5px 0;
+    text-transform: uppercase;
+    color: #{{ site.color.grad }};
 }
 
 
 h6.grid_content {
     color: gray;
-    font-family: Calibri,Arial,sans-serif;
+    font-family: 'Roboto',Calibri,Arial,sans-serif;
     margin: 0;
     font-size: 14px;
     text-align: left;
+}
+
+h6.grid_content.grid_content_dark {
+    color: #{{ site.color.grad }};
 }
 
 /* 
@@ -93,6 +119,16 @@ ul {
 
 ul li a {
     font-size: 19px;
+}
+
+.list-group-item.list-group-item-fixed-border {
+    border-left: 0px;
+    border-right: 0px;
+    padding: 6px 20px;
+}
+
+.list-group-item p {
+    margin: 3px 0px;
 }
 
 hr.star-light,
@@ -185,6 +221,7 @@ header .intro-text .name {
 
 header .intro-text .skills {
     font-weight: 200;
+    font-family: 
 }
 
 @media(min-width:768px) {
@@ -227,7 +264,7 @@ header .intro-text .skills {
 }
 
 .navbar {
-    font-family: 'Open Sans',monospace,Helvetica,Arial,sans-serif;
+    font-family: 'Roboto','Open Sans',monospace,Helvetica,Arial,sans-serif;
     font-weight: 500;
 }
 
@@ -245,6 +282,15 @@ header .intro-text .skills {
     border-bottom: 1px solid #221d1d;
 }
 .navbar-default .navbar-nav li a,
+.navbar-default .navbar-brand{
+        color: #{{ site.color.title }};
+}
+
+.navbar-default .navbar-brand{
+        padding-top: 8px;
+}
+
+
 .navbar-default .navbar-brand{
         color: #{{ site.color.title }};
 }
@@ -283,11 +329,13 @@ section {
 
 section .text-center {
     font-size: 3em;
+    color: #444654
 }
 section .text-center,
 section p {
     font-weight: 200;
 }
+
 
 @media(max-width:767px) {
     section {
@@ -299,7 +347,7 @@ section p {
     }
 }
 
-#guides_section {
+#usercase_section {
     background: #f6f8f8;
 }
 
@@ -307,9 +355,6 @@ section p {
     height: 150px;
 }
 
-#news_section {
-    background: #f6f8f8;
-}
 
 #contact_section {
     background: #f6f8f8;
@@ -380,7 +425,7 @@ section p {
 
 .btn-dark {
     margin-top: 15px;
-    border: solid 2px #000;
+    border: solid 1px #000;
     font-size: 20px;
     color: #000;
     background: 0 0;
@@ -391,11 +436,29 @@ section p {
 .btn-dark:focus,
 .btn-dark:active,
 .btn-dark.active {
-    border: solid 2px #000;
-    color: #{{ site.color.primary }};
-    background: #000;
+    border: solid 1px #000;
+    color: #fff;
+    background: #{{ site.color.secondary }};
 }
 
+.btn-blue {
+    margin-top: 15px;
+    border: solid 1px #03a9f4;
+    font-size: 20px;
+    color: #000;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+    margin-bottom: 10px;
+}
+
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active,
+.btn-blue.active {
+    border: solid 1px #000;
+    color: #fff;
+    background: #{{ site.color.secondary }};
+}
 
 .btn-outline {
     margin: 0 5px;
@@ -625,6 +688,8 @@ footer .footer-below {
 .my-icon.logo-icon {
     background: url("../img/logo.png");
     background-size: cover;
+    width: 128px;
+    height: 48px;
 }
 
 .my-icon.small {

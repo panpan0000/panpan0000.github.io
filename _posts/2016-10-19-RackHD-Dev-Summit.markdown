@@ -4,6 +4,7 @@ title: RackHD Developer Summit in Hopkinton
 modal-id: 2
 date: 2016-10-19
 img: dev-summit-icon.png
+icon: icons8.com-Adventures-48.png
 alt: 
 project-date: 2016 Nov
 #client: Start Bootstrap

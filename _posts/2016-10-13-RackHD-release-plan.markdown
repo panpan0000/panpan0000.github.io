@@ -4,6 +4,7 @@ title: RackHD will have its release in near term. please expect!
 modal-id: 1
 date: 2016-10-12
 img: release.jpg
+icon: icons8.com-Globe-48.png
 alt: 
 project-date: Oct 2016
 #client: Start Bootstrap

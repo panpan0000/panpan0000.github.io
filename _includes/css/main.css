@@ -245,6 +245,7 @@ header .intro-text .skills {
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
+        padding: 5px 0px; 
     }
 
     .navbar-fixed-top .navbar-brand {
@@ -310,7 +311,7 @@ header .intro-text .skills {
 
 
 section {
-    padding: 100px 0;
+    padding: 72px 0;
 }
 
 section .img-responsive {

@@ -17,25 +17,12 @@
                             EVENTS 
                             <a href="#" style="float:right;color: #03a9f4"><h5>Learn More...  <i class="fa fa-angle-double-right" aria-hidden="true"></i></h5></a>
                         </h3>
-                        <a href="#" class="list-group-item list-group-item-fixed-border">
-                        <img src="img/news/icons8.com-Globe-48.png" style="margin-right:13px;margin-left: 2px; height:30px; width:30px;float: left;">
-                        <p> RackHD Dev Summit 2016</p>
-                        </a>
-
-                        <a href="#" class="list-group-item list-group-item-fixed-border">
-                        <img src="img/news/icons8.com-Adventures-48.png" style="margin-right:10px; height:35px; width:35px;float: left;">
-                        <p href="#">RackHD in Dell World 2016</p>
-                        </a>
-
-                        <a href="#" class="list-group-item list-group-item-fixed-border">
-                        <img src="img/news/icons8.com-West Direction-48.png" style="margin-left: -3px;margin-right:8px; height:40px; width:40px;float: left;">
-                        <p>RackHD in Container Tech Summit</p>
-                        </a>
-
-                        <a href="#" class="list-group-item list-group-item-fixed-border">
-                        <img src="img/news/icons8.com-Chip-50.png" style="margin-right:10px; height:35px; width:35px;float: left;">
-                        <p>RackHD in Yet Another Tech Summit</p>
-                        </a>
+                        {% for post in site.posts %}
+                            <a href="#portfolioModal-{{ post.modal-id }}" data-toggle="modal" class="list-group-item list-group-item-fixed-border">
+                            <img src="img/news/{{post.icon}}" style="margin-right:13px;margin-left: 2px; height:30px; width:30px;float: left;">
+                            <p>{{ post.title }}</p>
+                            </a>
+                        {% endfor %}
                     </div>
                 </div>
             </div>

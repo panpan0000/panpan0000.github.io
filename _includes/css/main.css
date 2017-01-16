@@ -83,7 +83,7 @@ h4.grid_title{
     color: #{{ site.color.grad }};
 }
 
-
+h5.grid_content,
 h6.grid_content {
     color: gray;
     font-family: 'Roboto',Calibri,Arial,sans-serif;
@@ -92,6 +92,7 @@ h6.grid_content {
     text-align: left;
 }
 
+h5.grid_content.grid_content_dark,
 h6.grid_content.grid_content_dark {
     color: #{{ site.color.grad }};
 }

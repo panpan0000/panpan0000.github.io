@@ -1,32 +1,21 @@
-Freelancer Jekyll theme
-=========================
 
-Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/template-overviews/freelancer/)
+# RackHD&trade; Portal Page
 
-## How to use
- - Place a image in `/img/portfolio/`
- - Replace `you@email.com` in `_includes/contact_static.html` with your email address. refer to [formspree](http://formspree.io/) for more information.
- - Create posts to display your projects. Use the follow as an example:
-```txt
----
-layout: default
-modal-id: 1
-date: 2014-07-18
-img: cabin.png
-alt: image-alt
-project-date: July 2014
-client: The Client
-category: Web Development
-description: The description of the project
+> RackHD is a new open source project in active development by Dell EMC.  If you have questions or would like to contact us about the RackHD project, you can contact us via email at our projects mailing list: rackhd@googlegroups.com
 
----
-```
+RackHD is a technology stack created for enabling hardware management and orchestration, to provide cohesive APIs to enable automated infrastructure. In a Converged Infrastructure Platform (CIP) architecture, RackHD software provides hardware management and orchestration
+(M&O). It serves as an abstraction layer between other M&O layers and the underlying physical hardware. Developers can use the RackHD API to create a user interface that serves as single point of access for managing hardware services regardless of the specific hardware in place.
 
-## Demo
-View this jekyll theme in action [here](https://jeromelachaud.github.io/freelancer-theme)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/cCiXtROSt8U/0.jpg)](http://www.youtube.com/watch?v=cCiXtROSt8U "Introduction to RackHD")
 
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/jeromelachaud/freelancer-theme/master/screenshot.png)
+# This Repo
 
-=========
-For more details, read the [documentation](http://jekyllrb.com/)
+This repository holds the content of RackHD portal.
+It's the entrance of RackHD public information landing page.
+
+visit rackhd.github.io to view the content
+
+
+# Power by
+website powered by Freelancer Jekyll theme
+
